@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juan Valencia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="./css/main.css" rel="stylesheet" media="screen">
+        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/modals.js"></script>
+    </head>
+    <body>
+        <div class="pallate">
+            <div class="bgbeige"></div>
+            <div class="bgblue"></div>
+            <div class="bgdarkred"></div>
+            <div class="bglightred"></div>
+            <div class="bgyellow"></div>
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Tech City Church</h1>
+                <p>Building communities that help people follow Jesus</p>
+            </div>
+        </div>
+        <div class="container">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner bgdarkred fgwhite">
+                    <div class="item active" data-toggle="modal" data-target="#signup">
+                        <div class="slide coffeeSlide"><div class="word">We're not open yet,<br/>but let us buy you<br />a cup of coffee!</div></div>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-first" data-toggle="modal" data-target="#meetjesus">
+                    <section class="col-contain bgdarkred">
+                        <div class="col-head fgwhite">Meet Jesus</div>
+                        <div class="col-foot fgwhite">
+                            He wants to meet you
+                        </div>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-md-4 col-mid" data-toggle="modal" data-target="#getcloser">
+                    <section class="col-contain bgbeige">
+                        <div class="col-head">Get Closer</div>
+                        <div class="col-foot">
+                            Join us in life groups
+                        </div>
+                    </section>
+                </div>
+                <div class="col-xs-12 col-md-4 col-last" data-toggle="modal" data-target="#stepup">
+                    <section class="col-contain bgblue">
+                        <div class="col-head">Step Up</div>
+                        <div class="col-foot">
+                            Do things that matter
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <div id="meetjesus" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Meet Jesus</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h4>He Wants To Meet You</h4>
+                                <p>
+                                    There is one story that is so remarkable and that stands so far above all other stories, that we would all benefit by considering it.  
+                                    It's the story of a man who grew up and died for the sole purpose of saving us from ourselves.  
+                                    It's the story of how the creator of humankind wept for the sins of his people and sent his son to spare them his justice.
+                                </p>
+                                <p>
+                                    Jesus offered himself up as a mediator between God and man and was crucified.  
+                                    He was despised by men and took the judgment of God in our place.  
+                                    Being in essence one with God, death could not hold him and he rose from death to life.  
+                                    He then continued teaching here on Earth until he returned to God, to stand forever as a mediator between us.
+                                </p>
+                                <p>
+                                    This sounds crazy.  
+                                    Yet if it is true, it would change everything.  
+                                    Even if you have not met Jesus, you should probably want it to be true, because it would mean that God loved you and would give everything for you.  
+                                    Nothing in this life could be more important than meeting him.  Once you do, it does change everything.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary learnmore" data-dismiss="modal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            <div id="getcloser" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Get Closer</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Join Us In Life Groups</h4>
+                                <p>
+                                    When Jesus ascended to God, he left behind the Holy Spirit with his people so that they might stay connected to him.  
+                                    In sharing the Spirit of God, they become a part of God's family.  
+                                    Like any family, they were close, and it was messy.  
+                                    Even so, the earliest followers of Jesus lived in a very remarkable community where the Spirit of God brought the rich, the poor, the slaves, the women, and the men together in unity despite the messiness.
+                                </p>
+                                <p>
+                                    The early church was referred to by their most distinguishing feature.  
+                                    The word for church comes from the Greek word for "community" (eklesia).   
+                                    Today, while technology has connected us in interesting ways, it can also separate us from community.   
+                                    Get closer to others by spending time with them.  Being part of a church means being in a community that is like family - even with the mess.  
+                                    Unlike our earthly families, we have a bond that is rooted in the Holy Spirit who will help us deal with the mess.
+                                </p>
+                                <p>
+                                    We want to build communities where everyone comes together in unity.  
+                                    Whether you are anti-church or have been in church your whole life, we want to welcome you in.  
+                                    Let us join together and experience unity in a way that transcends understanding.   
+                                    We commit to meeting together in small groups that share life together so that we can grow.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary learnmore" data-dismiss="modal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            <div id="stepup" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Step Up</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Do Things That Matter</h4>
+                                <p>
+                                    Jesus was once asked what the most important commandment was.  
+                                    He answered with two:  Love God with everything you have, and Love your neighbor as yourself.  
+                                    In fact the second flows from the first.  If you love God with everything you have, you love the people he loves, namely, your neighbors.  
+                                    The simple act of inviting someone who lives nearby for coffee could make all the difference in the world.
+                                </p>
+                                <p>
+                                    You were not created to be self serving.  
+                                    In fact, anyone who has served others can speak to the great satisfaction that they feel in helping.  
+                                    God created us for this.  
+                                    If you live life in a way that pulls you away from God and away from loving others, you will find yourself depleted and empty.  
+                                    People who have worked to advance themselves often find themselves rich by the world's standards but ultimately alone.
+                                </p>
+                                <p>
+                                    Step up and lean into loving God and neighbor.  
+                                    As you identify with God while you love his people, you will not only become like God, but you will know him better.  
+                                    In service you will find peace, hope, and joy.  
+                                    In service you will know Jesus in his work and sacrifice, and can experience his joy and life.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary learnmore" data-dismiss="modal">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                 
+            
+            <div id="signup" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Learn More</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label class="form-label" for="exampleInputName">Name</label>
+                                    <input name="name" type="text" class="form-control" id="exampleInputName" placeholder="Ashley">
+                                    <label class="form-label" for="exampleInputEmail1">Email</label>
+                                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="you@host.com">
+                                    <label class="form-label" for="exampleInputPhone">Phone</label>
+                                    <input name="phone" type="tel" class="form-control" id="exampleInputPhone" placeholder="(555) 555-5555">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button id="signup-submit" type="button" class="btn btn-primary" data-toggle="modal" data-target="#result">Submit</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <div id="result" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Learn More</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+            <hr>
+            <footer class="">
+                <p>&copy; Tech City Church 2014 | Serving the Peninsula around East Palo Alto, Palo Alto, and Menlo Park</p>
+            </footer>
+        </div>
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
+

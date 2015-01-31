@@ -1,0 +1,13 @@
+pg:
+  image: postgres
+  environment:
+    - POSTGRES_PASSWORD=LCC_PW
+    - POSTGRES_USER=LCC_USER
+lcc:
+  build: .
+  links:
+    - pg
+  ports:
+    - 3000:3000
+
+
